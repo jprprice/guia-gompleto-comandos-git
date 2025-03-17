@@ -8,6 +8,7 @@
 - 🌿 `git config --global init.defaultBranch <name>` →              #Define o nome padrão da branch inicial ao criar um novo repositório.
 - ✏️ `git config --global core.editor "editor"` →                 #Define o editor de texto padrão para o Git.
 - 📜 `git config --global core.pager cat` →                        #Define o pager padrão do Git para exibir saída diretamente no terminal.
+- 🔑 `git config --global credential.helper store` →               #Armazena as credenciais do Git permanentemente.
 - 📝 `git config --local user.name "Seu Nome"` →                  #Define o nome do usuário apenas para o repositório atual.
 - 📧 `git config --local user.email "seuemail@example.com"` →     #Define o e-mail do usuário apenas para o repositório atual.
 
@@ -66,23 +67,6 @@
 - 🗑️ `git push --delete origin nome-da-branch` →           #Exclui uma branch remota.
 - 🔄 `git pull origin main` →                               #Atualiza o repositório local com as mudanças remotas.
 - 📥 `git fetch` →                                         #Baixa as mudanças do repositório remoto sem mesclá-las.
-
-## 🌱 Branches (Ramificações)
-
-- 🌳 `git branch` →                                           #Lista as branches existentes.
-- 🌱 `git branch nome-da-branch` →                           #Cria uma nova branch.
-- 🔄 `git checkout nome-da-branch` →                        #Muda para outra branch.
-- 🆕 `git checkout -b nova-branch` →                        #Cria e muda para uma nova branch.
-- 🔀 `git merge nome-da-branch` →                           #Mescla uma branch com a atual.
-- 🗑️ `git branch -d nome-da-branch` →                      #Deleta uma branch local.
-- 🗑️ `git branch -D nome-da-branch` →                      #Força a exclusão de uma branch local.
-- ✏️ `git branch -m <name>` →                              #Renomeia a branch atual para um novo nome.
-- 🔄 `git branch -r` →                                      #Lista as branches remotas.
-- 📌 `git branch -a` →                                      #Lista todas as branches locais e remotas.
-- 🔗 `git branch HEAD` →                                    #Mostra para qual commit HEAD está apontando.
-- 🏷️ `git branch master` →                                 #Mostra se a branch master existe no repositório.
-- 🌍 `git branch origin/HEAD` →                            #Mostra para qual branch HEAD do remoto está apontando.
-- 🔄 `git branch origin/master` →                          #Exibe a referência para a branch master no repositório remoto.
 
 ## ⏪ Reverter Mudanças
 
