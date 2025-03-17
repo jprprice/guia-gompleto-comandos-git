@@ -4,6 +4,8 @@
 
 - 📝 `git config --global user.name "Seu Nome"` →                   #Define o nome do usuário.
 - 📧 `git config --global user.email "seuemail@example.com"` →      #Define o e-mail do usuário.
+- ❌ `git config --global --unset user.name` →                      #Remove a configuração global do nome do usuário.
+- ❌ `git config --global --unset user.email` →                     #Remove a configuração global do e-mail do usuário.
 - ⚙️ `git config --list` →                                          #Exibe as configurações do Git.
 - 🌿 `git config --global init.defaultBranch <name>` →              #Define o nome padrão da branch inicial ao criar um novo repositório.
 - ✏️ `git config --global core.editor "editor"` →                 #Define o editor de texto padrão para o Git.
@@ -11,6 +13,8 @@
 - 🔑 `git config --global credential.helper store` →               #Armazena as credenciais do Git permanentemente.
 - 📝 `git config --local user.name "Seu Nome"` →                  #Define o nome do usuário apenas para o repositório atual.
 - 📧 `git config --local user.email "seuemail@example.com"` →     #Define o e-mail do usuário apenas para o repositório atual.
+- 🔍 `git config --local user.name` →                              #Exibe o nome do usuário configurado localmente.
+- 🔍 `git config --local user.email` →                             #Exibe o e-mail do usuário configurado localmente.
 
 ## 📂 Inicialização e Clonagem
 
